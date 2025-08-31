@@ -3,27 +3,27 @@ import React from "react";
 const categories = [
   {
     name: "Rings",
-    image: "https://via.placeholder.com/300x200?text=Rings",
+    image: "shop6.jpg",
   },
   {
     name: "Necklaces",
-    image: "https://via.placeholder.com/300x200?text=Necklaces",
+    image: "shop2.avif",
   },
   {
     name: "Bracelets",
-    image: "https://via.placeholder.com/300x200?text=Bracelets",
+    image: "shop3.webp",
   },
   {
     name: "Earrings",
-    image: "https://via.placeholder.com/300x200?text=Earrings",
+    image: "shop4.webp",
   },
   {
     name: "Bracelets",
-    image: "https://via.placeholder.com/300x200?text=Bracelets",
+    image: "shop5.webp",
   },
   {
     name: "Earrings",
-    image: "https://via.placeholder.com/300x200?text=Earrings",
+    image: "shop6.jpg",
   },
 ];
 
@@ -37,7 +37,7 @@ const ShopByCat = () => {
         {categories.map((cat, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-300 overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer"
+            className="bg-white  border-gray-300 overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <img
               src={cat.image}

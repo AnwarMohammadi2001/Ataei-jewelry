@@ -23,19 +23,19 @@ const HeroMain = () => {
       id: 1,
       title: "Transport & Cargo Solution",
       desc: "Fast, safe, and efficient transportation for all your cargo needs around the globe.",
-      image: "/slider/ab1.webp",
+      image: "kolco.jpg",
     },
     {
       id: 2,
       title: "Fast Delivery Service",
       desc: "Quick delivery services to ensure your packages arrive on time every time.",
-      image: "/slider/ab1.webp",
+      image: "img1.jpeg",
     },
     {
       id: 3,
       title: "Trusted by Thousands",
       desc: "Our customers trust us with their valuable shipments and logistics every day.",
-      image: "/slider/ab2.jpg",
+      image: "img2.jpg",
     },
   ];
 
@@ -62,7 +62,7 @@ const HeroMain = () => {
               variants={contentContainer}
               initial="hidden"
               animate="show"
-              className="w-full min-h-screen md:h-[400px] lg:h-[690px] bg-cover bg-center relative flex pt-28 md:pt-0 md:items-center justify-center"
+              className="w-full min-h-screen md:h-[400px] lg:h-[690px] bg-cover bg-center relative flex items-center  md:pt-0 md:items-center"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               <div className="absolute inset-0 bg-black/50"></div>
@@ -74,13 +74,13 @@ const HeroMain = () => {
               >
                 <motion.h2
                   variants={contentItem}
-                  className="text-2xl md:text-4xl mb-4 font-bold"
+                  className="text-2xl text-center md:text-start md:text-4xl mb-4 font-bold"
                 >
                   {slide.title}
                 </motion.h2>
                 <motion.p
                   variants={contentItem}
-                  className="text-sm md:text-base mb-4"
+                  className="text-base text-center md:text-start md:text-base mb-4"
                 >
                   {slide.desc}
                 </motion.p>
@@ -90,13 +90,13 @@ const HeroMain = () => {
                 >
                   <Link
                     to="/quote"
-                    className="bg-primary hover:bg-blue-600 text-lg font-bold text-center cursor-pointer text-white px-5 py-4 rounded-md transition duration-300 w-[220px]"
+                    className="border border-gray-50 hover:bg-gray-100 text-lg font-bold text-center cursor-pointer hover:text-gray-800 text-white px-5 py-4 rounded-md transition duration-300 w-[220px]"
                   >
                     Track Your Cargo
                   </Link>
                   <Link
                     to="/contact"
-                    className="bg-white text-primary cursor-pointer text-center text-lg font-bold hover:bg-gray-100 px-5 py-4 rounded-md transition duration-300 w-[220px]"
+                    className="border text-primary border-gray-50 cursor-pointer text-center text-lg font-bold hover:bg-gray-100 hover:text-gray-800 px-5 py-4 rounded-md transition duration-300 w-[220px]"
                   >
                     Get a Quote
                   </Link>

@@ -1,223 +1,96 @@
 export const links = [
   {
-    name: "Men",
+    name: "Rings",
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear",
+        Head: "By Material",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Gold Rings", link: "/" },
+          { name: "Silver Rings", link: "/" },
+          { name: "Platinum Rings", link: "/" },
         ],
       },
       {
-        Head: "Bottomwear",
+        Head: "By Occasion",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Engagement Rings", link: "/" },
+          { name: "Wedding Rings", link: "/" },
+          { name: "Anniversary Rings", link: "/" },
         ],
       },
       {
-        Head: "innerwear",
+        Head: "By Style",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-      {
-        Head: "sleepwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "footwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Diamond Rings", link: "/" },
+          { name: "Cocktail Rings", link: "/" },
+          { name: "Minimal Rings", link: "/" },
         ],
       },
     ],
   },
   {
-    name: "Women",
+    name: "Necklaces",
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear12",
+        Head: "By Material",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Gold Necklaces", link: "/" },
+          { name: "Silver Necklaces", link: "/" },
+          { name: "Pearl Necklaces", link: "/" },
         ],
       },
       {
-        Head: "Bottomwear12",
+        Head: "By Style",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear12",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-      {
-        Head: "sleepwear12",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "footwear12",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Chokers", link: "/" },
+          { name: "Pendant Necklaces", link: "/" },
+          { name: "Diamond Necklaces", link: "/" },
         ],
       },
     ],
   },
   {
-    name: "Kid's",
+    name: "Earrings",
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear",
+        Head: "By Type",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Stud Earrings", link: "/" },
+          { name: "Hoop Earrings", link: "/" },
+          { name: "Drop Earrings", link: "/" },
         ],
       },
       {
-        Head: "Bottomwear",
+        Head: "By Material",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-      {
-        Head: "sleepwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "footwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Gold Earrings", link: "/" },
+          { name: "Silver Earrings", link: "/" },
+          { name: "Diamond Earrings", link: "/" },
         ],
       },
     ],
   },
   {
-    name: "Accessories",
+    name: "Bracelets",
     submenu: true,
     sublinks: [
       {
-        Head: "Bags",
+        Head: "Bracelets",
         sublink: [
-          { name: "Gym Bags", link: "/" },
-          { name: "Backpacks", link: "/" },
-          { name: "Waist Bags", link: "/" },
-          { name: "Sports Duffel", link: "/" },
-          { name: "Tote Bags", link: "/" },
+          { name: "Gold Bracelets", link: "/" },
+          { name: "Silver Bracelets", link: "/" },
+          { name: "Diamond Bracelets", link: "/" },
         ],
       },
       {
-        Head: "Watches & Trackers",
+        Head: "Bangles",
         sublink: [
-          { name: "Smart Watches", link: "/" },
-          { name: "Fitness Trackers", link: "/" },
-          { name: "Stopwatches", link: "/" },
-          { name: "Sports Watches", link: "/" },
-        ],
-      },
-      {
-        Head: "Caps & Hats",
-        sublink: [
-          { name: "Baseball Caps", link: "/" },
-          { name: "Beanies", link: "/" },
-          { name: "Sun Hats", link: "/" },
-          { name: "Headbands", link: "/" },
-        ],
-      },
-      {
-        Head: "Socks & Gloves",
-        sublink: [
-          { name: "Sports Socks", link: "/" },
-          { name: "Compression Socks", link: "/" },
-          { name: "Gym Gloves", link: "/" },
-          { name: "Running Gloves", link: "/" },
-        ],
-      },
-      {
-        Head: "Other Accessories",
-        sublink: [
-          { name: "Water Bottles", link: "/" },
-          { name: "Yoga Mats", link: "/" },
-          { name: "Sweatbands", link: "/" },
-          { name: "Resistance Bands", link: "/" },
+          { name: "Traditional Bangles", link: "/" },
+          { name: "Gold Bangles", link: "/" },
+          { name: "Stone Bangles", link: "/" },
         ],
       },
     ],

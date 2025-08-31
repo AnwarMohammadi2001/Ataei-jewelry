@@ -43,7 +43,7 @@ const NavLinks = () => {
       {links.map((link) => (
         <div
           key={link.name}
-          className="group"
+          className="group "
           onMouseEnter={() => setHovered(link.name)}
           onMouseLeave={() => setHovered("")}
         >
@@ -70,7 +70,7 @@ const NavLinks = () => {
                 animate="visible"
                 exit="exit"
                 variants={dropdownVariants}
-                className="absolute top-full -left-16  w-screen bg-white border-gray-200 z-50"
+                className="absolute top-full -left-16  w-screen bg-white pb-20 border-gray-200 z-50"
               >
                 <div className="p-8 grid grid-cols-5 gap-10 max-w-7xl mx-auto">
                   {link.sublinks.map((mysublinks, i) => (

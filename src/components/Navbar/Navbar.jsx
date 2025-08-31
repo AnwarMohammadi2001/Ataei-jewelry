@@ -12,6 +12,7 @@ import MobileSearchBox from "./MobileSearchBox";
 import ResponsiveNav from "./ResponsiveNav";
 import { IoClose } from "react-icons/io5";
 import Drawer from "../Drawer";
+import { IoDiamondSharp } from "react-icons/io5";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -42,11 +43,12 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className="flex items-center justify-center">
-            <img
-              src={Logo}
+            {/* <img
+              src="logo.png"
               alt="logo"
               className="md:cursor-pointer cursor-pointer w-34"
-            />
+            /> */}
+            <IoDiamondSharp size={32} />
             <div
               className="text-3xl md:hidden ml-4"
               onClick={() => setOpen(!open)}
@@ -97,7 +99,12 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      {isDrawerOpens && <Drawer isDrawerOpens={isDrawerOpens} setIsDrawerOpens={setIsDrawerOpens} />}
+      {isDrawerOpens && (
+        <Drawer
+          isDrawerOpens={isDrawerOpens}
+          setIsDrawerOpens={setIsDrawerOpens}
+        />
+      )}
     </nav>
   );
 };

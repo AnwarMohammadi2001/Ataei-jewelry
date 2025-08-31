@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
 import { PiHeartStraight } from "react-icons/pi";
+import { IoDiamondSharp } from "react-icons/io5";
 
 
 const MobileSearchBox = ({ isExpanded, setIsExpanded }) => {
@@ -80,7 +81,8 @@ const MobileSearchBox = ({ isExpanded, setIsExpanded }) => {
               {/* Logo + Cancel (mobile) */}
               <div className="flex items-center justify-between gap-x-2 mb-3 md:mb-0">
                 <div className="flex items-center gap-x-3">
-                  <img src={Logo} alt="logo" className="w-28" />
+                  {/* <img src={Logo} alt="logo" className="w-28" /> */}
+                   <IoDiamondSharp size={32} />
                 </div>
                 <button
                   onClick={handleCancelClick}

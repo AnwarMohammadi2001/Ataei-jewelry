@@ -34,6 +34,8 @@ const ShopByCat = () => {
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800">
           Shop Jewelry by Category
+          Shop Jewelry by Category
+          Shop Jewelry by Category
         </h2>
         <p className="mt-2 text-gray-600 text-lg max-w-2xl mx-auto">
           Thoughtfully designed collections for your big day and everyday style.
